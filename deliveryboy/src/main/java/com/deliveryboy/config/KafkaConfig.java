@@ -13,8 +13,8 @@ public class KafkaConfig {
     public NewTopic topic(){
         return TopicBuilder
                 .name("AppConstants.LOCATION_TOPIC_NAME")
-                .partitions()
-                .replicas()
+                .partitions(3)
+                .replicas(2)
                 .build();
     }
 }
