@@ -1,4 +1,4 @@
-package com.enduser.EndUser;
+package com.enduser;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
